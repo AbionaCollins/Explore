@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Travel Landing</title>
+
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo"> Travel </h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="video/Coast, Taiwan _ 海岸線.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Exploring The World</h3>
+            <p>Enjoy a good and a nice Travel and varcation with your family and children have fun and go any where you
+                want to go, we go for site seeing to beautiful places and have fun, we bring musician and comedian to
+                entertain our costomer and we link you to any where you are welling to go, so be confortable.</p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="Facebook.jpg" alt=""></a></li>
+            <li><a href="#"><img src="Twitter2.png" alt=""></a></li>
+            <li><a href="#"><img src="Instagram2.jpg" alt=""></a></li>
+
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </div>
+    <script>
+        const menuToggle = document.queryselector('.toggle')
+        const showcase = document.queryselector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+
+</html>
